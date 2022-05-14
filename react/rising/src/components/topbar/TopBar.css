@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+.navbar {
+    position: absolute;
+    margin-left: 0;
+}
+
+.nav--toolbar{
+
+}
+
+.logoBox{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+    padding-top: 13px;
+}
+
+.name{
+    color: #000000;
+    padding-top: 22px;
+    padding-left: 10px;
+}
+
+.loginBox{
+    padding-top: 12px;
+}
+
+Button.signup,
+Button.login {
+    text-transform: capitalize;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+.navbar--tabs{
+    margin: auto;
+    padding-top: 12px;
+}
+
+.navbar--tab {
+    
+}

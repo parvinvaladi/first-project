@@ -1,0 +1,143 @@
+.mainFooter {
+    background: #EBEBF8;
+    height: 250px;
+    padding: 8.125rem 3px;
+}
+
+@media (max-width:900px){
+    .mainFooter {
+        height: 600px;
+    }
+}
+
+@media (max-width:600px){
+    .mainFooter {
+        height: 1075px;
+    }
+}
+
+.logo {
+    height: 73px;
+    width: 73px;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.logoName {
+    /* position: absolute;
+    top: 138px;
+    left: 12.19rem; */
+    padding-left: 1rem;
+    padding-top: 0.7rem;
+    color: #707070;
+    cursor: context-menu;
+}
+
+
+.contactPage {
+    margin-top: 18px;
+}
+
+span.spanLogo {
+    /* border-radius: 50%;
+    height: 28px;
+    width: 28px;
+    border: 2px solid #9C9CA8;
+    display: inline-block; */
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    border: 1px solid #9C9CA8;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    padding-top: 3px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    margin-right: 15px;
+}
+
+
+.spanLogo > .contactLogo {
+    
+}
+
+.heads{
+    height: 59px;
+}
+
+.headText {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.items {
+    height: 30px;
+    cursor: pointer;
+}
+
+.items > .page,
+.info > .page {
+    font-size: 24px;
+    font-weight: medium;
+    color: #8A8A8A;
+    text-decoration: none;
+}
+
+.items > .page:hover{
+    text-decoration: none;
+    color: #778899;
+}
+
+.copyBox {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+.termBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    /* margin-left: 750px; */
+    font-weight: small;
+    color: #677294;
+    font-size: 15px;
+    width: 30%;
+    margin-right: 15%;
+}
+
+.termBox > .term {
+    font-weight: small;
+    color: #677294;
+    font-size: 15px;
+    cursor: pointer;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+
+.termBox > .privacy {
+    font-weight: small;
+    color: #677294;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.term:hover,
+.privacy:hover {
+    text-decoration: none;
+}
+
+
+
