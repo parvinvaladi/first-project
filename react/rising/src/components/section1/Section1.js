@@ -20,6 +20,8 @@ export default function Section1() {
                 <Box className="text">
                     <Typography variant="h6" sx={{fontSize: "18px"}}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo</Typography>
                     <Button variant="contained" className="button">Lorem ipsum</Button>
+
+                    
                 </Box>
             </Box>
         </Box>
