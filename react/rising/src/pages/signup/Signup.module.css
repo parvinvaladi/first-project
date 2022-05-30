@@ -1,0 +1,41 @@
+.header {
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.paper {
+    width: 25%;
+    margin: auto;
+    padding-left: 60px;
+    padding-right:60px;
+    margin-top: 15px;
+}
+
+.head {
+    border-bottom: 2px solid rgb(112, 112, 112,0.2);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.link {
+    color: #000000;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    padding-top: 18px;
+}
+
+
+Button.button {
+    margin-bottom: 20px;
+}
+
+.intl-tel-input.allow-dropdown input,
+.intl-tel-input.allow-dropdown input[type=text], 
+.intl-tel-input.allow-dropdown input[type=tel] {
+    height: 6rem;
+    width: 100%;
+  }
+
+  

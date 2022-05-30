@@ -1,5 +1,5 @@
 .main {
-    height: 680px;
+    height: 580px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -48,4 +48,16 @@ Button.button {
     font-size: 18px;
     margin-top: 25px;
     text-transform: none;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.title {
+    position: absolute;
+    bottom: 48px;
+    left: 46px;
+    font-size: 40px;
 }

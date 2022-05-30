@@ -24,7 +24,7 @@ body {
 
 .name{
     color: #000000;
-    padding-top: 22px;
+    padding-top: 32px;
     padding-left: 10px;
 }
 
@@ -32,12 +32,6 @@ body {
     padding-top: 12px;
 }
 
-Button.signup,
-Button.login {
-    text-transform: capitalize;
-    font-size: 18px;
-    border-radius: 6px;
-}
 
 .navbar--tabs{
     margin: auto;

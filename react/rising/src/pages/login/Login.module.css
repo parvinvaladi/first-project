@@ -1,0 +1,97 @@
+.mainBox {
+    display: flex;
+    flex-direction: row;
+}
+
+.box1 {
+    width: 50%;
+    margin: 0;
+}
+
+.box2 {
+    width: 50%;
+    margin: 0;
+    background: linear-gradient(60deg, rgba(59,1,23,1) 0%, rgba(164,8,38,1) 35%, rgba(29,29,29,1) 100%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.logo1 {
+    width: 485.85px;
+    height: 485.85px;
+    align-self: center;
+}
+
+.box1Head {
+    margin-top: 62px;
+    border-bottom: 2px solid rgb(112, 112, 112,0.2);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box1Body {
+    margin-top: 30px;
+}
+
+.link {
+    color: #000000;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    padding-top: 20px;
+}
+
+.link:hover {
+    color: #5c5b5b;
+}
+
+.login {
+    width: 40%;
+    margin: auto;
+    color: #8d8c8c;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.inputs {
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.username {
+    width: 100%;
+    height: 1px;
+}
+
+.forget {
+    color: #F2134F;
+    cursor: pointer;
+    margin-top: 10px;
+    text-decoration: none;
+    text-align: right;
+}
+
+Button.signin {
+    background-color: #F2134F;
+    width: 100%;
+    height: 56px;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+Button.signin:hover {
+    background-color: #f33265;
+}
+
+
+.registerLink{
+    color: #F2134F;
+    text-decoration: none;
+    
+}
